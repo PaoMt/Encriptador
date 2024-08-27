@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <img class="header_logo" src="./assets/Logo.png.png" alt="Logo de Alura">
+    </header>
+    <main class="contenido">
+        <section class="section__1"> 
+            <textarea id="ingresoTexto" class="ingresoTexto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h4 class="informacion">Solo letras minúsculas y sin acentos</h4>
+            </div>
+            <div class="botones">
+                <button id="botonEncriptar" class="boton_encriptar" >Encriptar</button>
+                <button id="botonDesencriptar" class="boton_desencriptar" >Desencriptar</button>
+            </div> 
+        </section >
+        <section class="section__2">
+            <div id="right" class="right">
+                <img id="mono" class="mono" src="./assets/Muñeco.png.png" alt="Muñeco">
+                <textarea id="mensajeFinal" class="mensajeFinal" readonly>Ningún mensaje fue encontrado.</textarea>                
+                <p id="advertencia2" class="advertencia__2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button id="botonCopiar" class="boton_copiar bn_ocultar" >Copiar</button> 
+            </div>
+        </section>
+    </main>        
+    <footer 
+        class="footer">Creado por Paola Martinez
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
